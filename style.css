@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F1F1F1;
+    color: #111;
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro",
+                 "Noto Serif JP", serif;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+main > div {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+td {
+    vertical-align: bottom;
+}
+
+td:first-child {
+    width: 50%;
+    padding-right: 20px;
+}
+
+td:last-child {
+    width: 50%;
+}
+
+h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+}
+
+.botan {
+    color: #111;
+    text-decoration: none;
+    border-bottom: 1px solid #111;
+    padding-bottom: 3px;
+}
+
+.botan:hover {
+    opacity: 0.5;
+}
+
+form {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form p {
+    margin: 0 0 8px;
+    font-size: 15px;
+}
+
+form p:not(:first-child) {
+    margin-top: 28px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 0;
+    background: #fff;
+    color: #111;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #111;
+}
+
+input[type="submit"] {
+    margin-top: 28px;
+    padding: 10px 32px;
+    border: 1px solid #111;
+    border-radius: 0;
+    background: #111;
+    color: #fff;
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #444;
+}
+
+main > div > h2:last-child {
+    margin-top: 70px;
+    padding-top: 15px;
+    border-top: 1px solid #aaa;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
